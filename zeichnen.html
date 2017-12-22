@@ -1,0 +1,18 @@
+---
+layout: default
+  
+  - image_path /img/objekte/IMG_0085.jpg
+  	title Bild XY
+  - image_path /img/objekte/IMG_0088.jpg
+  	title Bild XY
+  - image_path /img/objekte/IMG_0083.jpg
+  	title Bild XY
+---
+
+<ul class="gallerie">
+{% for image in page.images %}
+	<li>
+		<img src="{{ image.image_path }}" alt="{{ image.title }}">
+	</li>
+
+{% endfor %}
