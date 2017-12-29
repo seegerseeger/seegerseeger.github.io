@@ -30,6 +30,7 @@ h1 {
 }
 
 h2{
+    font-size: 3em;
     font-family: 'Roboto', 'Helvetica', 'Arial', 'Sans-Serif';
     font-weight:  lighter;
 }
@@ -62,9 +63,4 @@ ul.posts li {
 
 img {
 
-}
-
-.mygallery {
-    border-width: 2
-    border-style: black;
 }
