@@ -12,7 +12,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 101,
+    "uniqCompNum": 102,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png"
   },
@@ -133,12 +133,16 @@
           }
         },
         {
-          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_params": {
+            "showMeta": false
+          },
+          "title": "",
+          "meta": "By John Smith posted July 30, 2015",
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-2f"
+          "_name": "header3",
+          "_anchor": "header3-2t"
         },
         {
           "_params": {
