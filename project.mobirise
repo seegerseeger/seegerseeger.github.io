@@ -399,10 +399,10 @@
         },
         {
           "_params": {
-            "showMeta": true
+            "showMeta": false
           },
           "title": "FELDER",
-          "meta": "By John Smith posted July 30, 2015",
+          "meta": "",
           "_tags": [
             "Theme"
           ],
