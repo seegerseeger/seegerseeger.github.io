@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Petra",
-    "currentPage": "gallerie.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -163,7 +163,7 @@
         {
           "_inherit": "gallery1",
           "_params": {
-            "fullWidth": true,
+            "fullWidth": false,
             "noGutter": false,
             "showText": false,
             "showBullets": true,
