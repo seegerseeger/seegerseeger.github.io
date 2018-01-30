@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Petra",
-    "currentPage": "index.html",
+    "currentPage": "gallerie.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -12,7 +12,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 93,
+    "uniqCompNum": 101,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png"
   },
@@ -103,7 +103,7 @@
             "overlayColor": "#222",
             "overlayOpacity": "0"
           },
-          "title": "<span style=\"font-weight: normal;\">Petra Seeger</span><span style=\"font-weight: normal;\"><br></span>",
+          "title": "<span style=\"font-weight: normal;\">Petra</span><br><br><span style=\"font-weight: normal;\"> Seeg</span><span style=\"font-weight: normal;\">er</span><span style=\"font-weight: normal;\"><br></span>",
           "text": "<br>Künstlerin",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">KONTAKT</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BIO</a>",
           "_tags": [
@@ -163,7 +163,7 @@
         {
           "_inherit": "gallery1",
           "_params": {
-            "fullWidth": false,
+            "fullWidth": true,
             "noGutter": false,
             "showText": false,
             "showBullets": true,
@@ -171,16 +171,16 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/img-398-329x1024.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-398-329x1024-329x1024.jpg",
-                "alt": "",
+                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-404-329x1024.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-404-329x1024-329x1024.jpg",
-                "alt": "",
+                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ]
           },
@@ -190,69 +190,6 @@
           ],
           "_name": "gallery2",
           "_anchor": "gallery2-1c"
-        },
-        {
-          "text": "<p>ohne Titel | 30x65cm | Acryl/Kreide auf Papier</p><p>ohne Titel | 30x65cm | Acryl/Kreide auf Papier</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1q"
-        },
-        {
-          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2e"
-        },
-        {
-          "_inherit": "msg-box3",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-article": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-19-800x814.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#000000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": true,
-            "overlay": true,
-            "overlayColor": "#28324e",
-            "overlayOpacity": 0.2
-          },
-          "title": "",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "meta": "By John Smith posted July 30, 2015",
-          "_name": "content5",
-          "_anchor": "content5-1v"
         },
         {
           "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
@@ -301,14 +238,14 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/img-15-1006x1024-800x814.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-15-1006x1024-800x814-800x814.jpg",
-                "alt": "",
+                "alt": "Serie Blau 3 | 30x30cm | Acryl auf Leinwand",
                 "caption": "Type caption here",
                 "active": false
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-19-1006x1024.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-19-1006x1024-800x814.jpg",
-                "alt": "",
+                "alt": "Serie Blau 4 | 30x30cm | Acryl auf Leinwand",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -320,74 +257,6 @@
           ],
           "_name": "gallery2",
           "_anchor": "gallery2-1b"
-        },
-        {
-          "text": "<p>Serie Blau 3 | 30x30cm | Acryl auf Leinwand</p><p>Serie Blau 4 | 30x30cm | Acryl auf Leinwand</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1e",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          }
-        },
-        {
-          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2c"
-        },
-        {
-          "_inherit": "msg-box3",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-article": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "showTitle": false,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": true,
-            "overlay": true,
-            "overlayColor": "#28324e",
-            "overlayOpacity": 0.2
-          },
-          "title": "EASY TO USE!",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "meta": "By John Smith posted July 30, 2015",
-          "_name": "content5",
-          "_anchor": "content5-1u"
         },
         {
           "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
@@ -421,8 +290,8 @@
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
-              "alt": "",
-              "title": ""
+              "alt": "Felder | 140x140cm | Bleistift/Ölfarbe auf Papier",
+              "title": "Felder | 140x140cm | Bleistift/Ölfarbe auf Papier"
             },
             "video": {
               "class": "mbr-figure__img",
@@ -435,69 +304,6 @@
           ],
           "_name": "image2",
           "_anchor": "image2-1o"
-        },
-        {
-          "text": "<p>Felder | 140x140cm | Bleistift/Ölfarbe auf Papier</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1r"
-        },
-        {
-          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-29"
-        },
-        {
-          "_inherit": "msg-box3",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-article": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/l1140151-1295x1383-800x854.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": true,
-            "overlay": true,
-            "overlayColor": "#28324e",
-            "overlayOpacity": 0.2
-          },
-          "title": "",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "meta": "By John Smith posted July 30, 2015",
-          "_name": "content5",
-          "_anchor": "content5-1t"
         },
         {
           "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
@@ -538,14 +344,14 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/l1140159-1295x1383-800x854.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/l1140159-1295x1383-800x854-800x854.jpg",
-                "alt": "",
+                "alt": "12x16cm | Bleistift/Ölfarbe auf Papier",
                 "caption": "Type caption here",
                 "active": false
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/l1140151-1295x1383.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/l1140151-1295x1383-800x854.jpg",
-                "alt": "",
+                "alt": "12x16cm | Bleistift/Ölfarbe auf Papier",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -559,14 +365,6 @@
           "_anchor": "gallery2-1p"
         },
         {
-          "text": "<p>12x16cm | Bleistift/Ölfarbe auf Papier</p><p>12x16cm | Bleistift/Ölfarbe auf Papier</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-26"
-        },
-        {
           "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
           "_tags": [
             "Theme"
@@ -575,15 +373,7 @@
           "_anchor": "content1-2a"
         },
         {
-          "text": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-24"
-        },
-        {
-          "text": "<p>Die hier dargestellten Werke werden in unregelmäßigen Abständen erneuert.&nbsp;</p><p>Sie können sich unter diesem <b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdQ2XVaUvmtpgQcTbMhDSwKZbZQPXD4JInFzpcLly0JC6CIGw/viewform?usp=sf_link\">Link</a></b> für E-mail Updates anmelden.&nbsp;</p>",
+          "text": "<p>Die Selektion der hier dargestellten Werke wird in unregelmäßigen Abständen erneuert.&nbsp;</p><p>Sie können sich unter diesem <b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdQ2XVaUvmtpgQcTbMhDSwKZbZQPXD4JInFzpcLly0JC6CIGw/viewform?usp=sf_link\">Link</a></b>&nbsp;für Updates anmelden.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
@@ -1207,7 +997,7 @@
       "settings": {
         "meta_descr": "Impressum.",
         "title": "Impressum",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1330,6 +1120,339 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-23"
+        }
+      ]
+    },
+    "gallerie.html": {
+      "settings": {
+        "meta_descr": "Gallerie.",
+        "title": "Gallerie",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#000000"
+            },
+            ".mbr-navbar__section": {
+              "background": "#000000"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#000000",
+            "hamburgerColor": "#ffffff"
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img-181-120x120.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span style=\"font-weight: normal;\">PETRA SEEGER</span></a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2l"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "FIGUREN",
+          "meta": "2001-2018",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2o"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "fullWidth": true,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": true,
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-645-431x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-645-431x1024-431x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-641-1280x337.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-641-1280x337-800x210.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-640-1280x860.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-640-1280x860-800x537.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-635-762x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-635-762x1024-762x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-638-735x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-638-735x1024-735x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-633-694x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-633-694x1024-694x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-631-1280x890.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-631-1280x890-800x556.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-629-1013x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-629-1013x1024-800x808.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-627-724x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-627-724x1024-724x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-625-793x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-625-793x1024-793x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-623-1280x911.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-623-1280x911-800x569.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-621-842x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-621-842x1024-800x972.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-619-1280x438.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-619-1280x438-800x273.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-616-674x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-616-674x1024-674x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-612-1280x1009.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-612-1280x1009-800x630.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-610-1280x918.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-610-1280x918-800x573.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-608-1157x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-608-1157x1024-800x708.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-606-600x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-606-600x1024-600x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-604-1280x448.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-604-1280x448-800x280.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-602-722x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-602-722x1024-722x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-599-1280x867.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-599-1280x867-800x541.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-596-728x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-596-728x1024-728x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-593-711x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-593-711x1024-711x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-590-609x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-590-609x1024-609x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-284-812x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-284-812x1024-800x1008.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-588-710x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-588-710x1024-710x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": true,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-2q"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-01-30-at-21.38.04-38x34.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<b>SEITENINHABER</b><br>Petra Seeger<br>",
+          "text2": "<b>DESIGN</b><br>Bela Seeger",
+          "text3": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2m"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 Petra Seeger.&nbsp;<a class=\"mbr-footer__link text-danger\" href=\"impressum.html\">Impressum</a>.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2n"
         }
       ]
     }

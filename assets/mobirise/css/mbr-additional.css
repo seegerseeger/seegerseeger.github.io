@@ -41,47 +41,11 @@
 #header3-c H3 {
   text-align: left;
 }
-#content5-1v .mbr-header .mbr-header__text {
-  text-align: center;
-  color: #fff;
-}
-#content5-1v .mbr-header .mbr-header__subtext {
-  text-align: center;
-  color: #fff;
-}
-#content5-1v .mbr-article {
-  color: #fff;
-}
 #header3-b H3 {
   text-align: left;
 }
 #header3-b P {
   text-align: left;
-}
-#content1-1e P {
-  text-align: left;
-}
-#content5-1u .mbr-header .mbr-header__text {
-  text-align: center;
-  color: #fff;
-}
-#content5-1u .mbr-header .mbr-header__subtext {
-  text-align: center;
-  color: #fff;
-}
-#content5-1u .mbr-article {
-  color: #fff;
-}
-#content5-1t .mbr-header .mbr-header__text {
-  text-align: center;
-  color: #fff;
-}
-#content5-1t .mbr-header .mbr-header__subtext {
-  text-align: center;
-  color: #fff;
-}
-#content5-1t .mbr-article {
-  color: #fff;
 }
 #header3-h H3 {
   text-align: left;
@@ -160,6 +124,23 @@
   color: #ffffff;
 }
 #menu-20 .mbr-brand__name a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+#menu-2l .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-2l.mbr-navbar--stuck .mbr-navbar__section {
+  background: #000000;
+}
+#menu-2l .mbr-navbar__section {
+  background: #000000;
+}
+#menu-2l .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-2l .mbr-brand__name a {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
