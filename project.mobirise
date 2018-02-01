@@ -12,7 +12,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 102,
+    "uniqCompNum": 108,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png"
   },
@@ -145,26 +145,6 @@
           "_anchor": "header3-2t"
         },
         {
-          "_params": {
-            "showMeta": false
-          },
-          "title": "OHNE TITEL",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-c",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            },
-            "H3": {
-              "text-align": "left"
-            }
-          }
-        },
-        {
           "_inherit": "gallery1",
           "_params": {
             "fullWidth": false,
@@ -196,32 +176,15 @@
           "_anchor": "gallery2-1c"
         },
         {
-          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2d"
-        },
-        {
-          "text": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1f"
-        },
-        {
           "_params": {
-            "showMeta": false
+            "showMeta": true
           },
-          "title": "SERIE BLAU",
-          "meta": "",
+          "title": "OHNE TITEL",
+          "meta": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-b",
           "_styles": {
             "H3": {
               "text-align": "left"
@@ -229,7 +192,16 @@
             "P": {
               "text-align": "left"
             }
-          }
+          },
+          "_anchor": "header3-2w"
+        },
+        {
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2d"
         },
         {
           "_inherit": "gallery1",
@@ -263,24 +235,32 @@
           "_anchor": "gallery2-1b"
         },
         {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "SERIE BLAU",
+          "meta": "Serie Blau 3 | 30x30cm | Acryl auf Leinwand<br>Serie Blau 4 | 30x30cm | Acryl auf Leinwand<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header3-2x"
+        },
+        {
           "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
           "_anchor": "content1-2b"
-        },
-        {
-          "_params": {
-            "showMeta": false
-          },
-          "title": "FELDER",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-1n"
         },
         {
           "_params": {
@@ -310,19 +290,11 @@
           "_anchor": "image2-1o"
         },
         {
-          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-28"
-        },
-        {
           "_params": {
-            "showMeta": false
+            "showMeta": true
           },
-          "title": "SERIE \"ANBEGINN\"",
-          "meta": "<br><br>",
+          "title": "FELDER",
+          "meta": "Felder | 140x140cm | Bleistift/Ölfarbe auf Papier<br>",
           "_tags": [
             "Theme"
           ],
@@ -335,7 +307,15 @@
               "text-align": "left"
             }
           },
-          "_anchor": "header3-h"
+          "_anchor": "header3-2y"
+        },
+        {
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-28"
         },
         {
           "_inherit": "gallery1",
@@ -367,6 +347,26 @@
           ],
           "_name": "gallery2",
           "_anchor": "gallery2-1p"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "SERIE „ANBEGINN“",
+          "meta": "Serie „Anbeginn\" | 12x16cm | Bleistift/Ölfarbe auf Papier<br>Serie „Anbeginn\" | 12x16cm | Bleistift/Ölfarbe auf Papier<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header3-2z"
         },
         {
           "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
