@@ -12,7 +12,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 108,
+    "uniqCompNum": 110,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -268,31 +268,28 @@
           "_anchor": "content1-2b"
         },
         {
+          "_inherit": "gallery1",
           "_params": {
+            "fullWidth": true,
+            "noGutter": false,
             "showText": false,
-            "outside": false
+            "showBullets": true,
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782-800x782.jpg",
+                "alt": "12x16cm | Bleistift/Ölfarbe auf Papier",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
           },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "link": "",
-              "alt": "Felder | 140x140cm | Bleistift/Ölfarbe auf Papier",
-              "title": "Felder | 140x140cm | Bleistift/Ölfarbe auf Papier"
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "articleLayout": true,
           "_tags": [
             "Theme"
           ],
-          "_name": "image2",
-          "_anchor": "image2-1o"
+          "_name": "gallery2",
+          "_anchor": "gallery2-31"
         },
         {
           "_params": {
