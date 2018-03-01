@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Petra",
+    "name": "Petra Seeger Malerei",
     "currentPage": "index.html",
     "theme": {
       "name": "default",
@@ -14,7 +14,12 @@
     "versionFirst": "4.6.3",
     "uniqCompNum": 108,
     "versionPublish": "4.6.3",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "html_before": "",
+    "headbody": "",
+    "botbody": ""
   },
   "pages": {
     "index.html": {
@@ -57,7 +62,7 @@
             "color": "#000000",
             "hamburgerColor": "#ffffff"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
@@ -104,7 +109,7 @@
             "overlayOpacity": "0"
           },
           "title": "<span style=\"font-weight: normal;\">Petra</span><br><br><span style=\"font-weight: normal;\"> Seeg</span><span style=\"font-weight: normal;\">er</span><span style=\"font-weight: normal;\"><br></span>",
-          "text": "<br>Künstlerin",
+          "text": "<br>Malerei",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">KONTAKT</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BIO</a>",
           "_tags": [
             "Theme"
@@ -147,7 +152,7 @@
         {
           "_inherit": "gallery1",
           "_params": {
-            "fullWidth": false,
+            "fullWidth": true,
             "noGutter": false,
             "showText": false,
             "showBullets": true,
@@ -206,7 +211,7 @@
         {
           "_inherit": "gallery1",
           "_params": {
-            "fullWidth": false,
+            "fullWidth": true,
             "noGutter": false,
             "showText": false,
             "showBullets": true,
@@ -239,7 +244,7 @@
             "showMeta": true
           },
           "title": "SERIE BLAU",
-          "meta": "Serie Blau 3 | 30x30cm | Acryl auf Leinwand<br>Serie Blau 4 | 30x30cm | Acryl auf Leinwand<br>",
+          "meta": "<span style=\"font-style: normal;\">Serie Blau 3 | 30x30cm | Acryl auf Leinwand<br>Serie Blau 4 | 30x30cm | Acryl auf Leinwand</span><br>",
           "_tags": [
             "Theme"
           ],
@@ -294,7 +299,7 @@
             "showMeta": true
           },
           "title": "FELDER",
-          "meta": "Felder | 140x140cm | Bleistift/Ölfarbe auf Papier<br>",
+          "meta": "<span style=\"font-style: normal;\">Felder | 140x140cm | Pigment auf Leinwand</span><br>",
           "_tags": [
             "Theme"
           ],
@@ -320,7 +325,7 @@
         {
           "_inherit": "gallery1",
           "_params": {
-            "fullWidth": false,
+            "fullWidth": true,
             "noGutter": false,
             "showText": false,
             "showBullets": true,
@@ -353,7 +358,7 @@
             "showMeta": true
           },
           "title": "SERIE „ANBEGINN“",
-          "meta": "Serie „Anbeginn\" | 12x16cm | Bleistift/Ölfarbe auf Papier<br>Serie „Anbeginn\" | 12x16cm | Bleistift/Ölfarbe auf Papier<br>",
+          "meta": "<span style=\"font-style: normal;\">Serie „Anbeginn\" | 12x16cm | Bleistift/Ölfarbe auf Papier<br>Serie „Anbeginn\" | 12x16cm | Bleistift/Ölfarbe auf Papier</span><br>",
           "_tags": [
             "Theme"
           ],
@@ -377,7 +382,7 @@
           "_anchor": "content1-2a"
         },
         {
-          "text": "<p>Die Selektion der hier dargestellten Werke wird in unregelmäßigen Abständen erneuert.&nbsp;</p><p>Sie können sich unter diesem <b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdQ2XVaUvmtpgQcTbMhDSwKZbZQPXD4JInFzpcLly0JC6CIGw/viewform?usp=sf_link\">Link</a></b>&nbsp;für Updates anmelden.&nbsp;</p>",
+          "text": "<p>Die Auswahl der hier dargestellten Arbeiten wird in unregelmäßigen Abständen erneuert.&nbsp;</p><p>Sie können sich unter diesem <b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdQ2XVaUvmtpgQcTbMhDSwKZbZQPXD4JInFzpcLly0JC6CIGw/viewform?usp=sf_link\">Link</a></b>&nbsp;für Updates anmelden.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
@@ -703,7 +708,7 @@
             "color": "#000000",
             "hamburgerColor": "#ffffff"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
@@ -872,7 +877,7 @@
             "color": "#000000",
             "hamburgerColor": "#ffffff"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
@@ -910,7 +915,7 @@
           "_anchor": "header3-15"
         },
         {
-          "text": "<p>Aktuell stelle ich in der Kulturstation Wetzlar meine Werke aus. Ich freue mich über Besucher und Kommentare. Anbei der Einladungstext zur Veranstaltung.<br></p><p>Das zentrale Thema ihrer Arbeiten ist eine Urform, die Kapsel. Ihre Erscheinungsform in der Natur ist vielfältig: als Knospe, und damit der Verheißung der Entfaltung; als Samenkapsel die bewahrt und den Neubeginn in sich trägt. Aufbruch, Vergehen und Bewahrung des Lebendigen sind gleichsam in dieser einen Form zu finden. Die Kapsel als Symbol für Wandlung und Entwicklung.</p><p>Einführende Worte Maja Fischli, Fischingen, Schweiz</p><p>Musikalische Begleitung „Kaktussi meets Hugo Hellectric. Strings- und Strongwriter“ – Gitarre, Gesang &amp; Saxophon</p><p>Die Arbeitsweise mit vielen Schichtungen von Farbmasse oder Lasur, von Kreide und Collage, kommt diesem Thema entgegen: Es geht um einen Entstehungsprozess. An dessen Ende bleibt eine Verdichtung des Themas sichtbar. Bevorzugt werden Pigmente verwendet da sie ein lebendiges Arbeiten, von lasierend bis deckend, ermöglichen.</p><p>Petra Seeger, Jahrgang 1960, ist freiberufliche Hebamme.</p><p>Ihren künstlerischen Weg hat sie, nach einigen Semestern an der Fachhochschule für Gestaltung in Wiesbaden, durch Kurse an der Marburger Sommerakademie bei dem Berliner Künstler Martin Seidemann, weitergeführt. An die intensive Beschäftigung mit der menschlichen Figur, schlossen sich Landschaftsmalreisen an. Seit 2015 studiert sie Malerei bei Prof. Jo Bukowski an der Kunstakademie Bad Reichenhall.</p>",
+          "text": "<p>Aktuell stelle ich in der Kulturstation Wetzlar meine Werke aus. Ich freue mich über Besucher und Kommentare. Anbei der Einladungstext zur Veranstaltung.<br></p><p>\"Das zentrale Thema ihrer Arbeiten ist eine Urform, die Kapsel. Ihre Erscheinungsform in der Natur ist vielfältig: als Knospe, und damit der Verheißung der Entfaltung; als Samenkapsel die bewahrt und den Neubeginn in sich trägt. Aufbruch, Vergehen und Bewahrung des Lebendigen sind gleichsam in dieser einen Form zu finden. Die Kapsel als Symbol für Wandlung und Entwicklung.</p><p>Die Arbeitsweise mit vielen Schichtungen von Farbmasse oder Lasur, von Kreide und Collage, kommt diesem Thema entgegen: Es geht um einen Entstehungsprozess. An dessen Ende bleibt eine Verdichtung des Themas sichtbar. Bevorzugt werden Pigmente verwendet da sie ein lebendiges Arbeiten, von lasierend bis deckend, ermöglichen.\"</p><p>Einführende Worte Maja Fischli, Fischingen, Schweiz</p><p>Musikalische Begleitung „Kaktussi meets Hugo Hellectric. Strings- und Strongwriter“ – Gitarre, Gesang &amp; Saxophon.</p>",
           "_tags": [
             "Theme"
           ],
@@ -1034,7 +1039,7 @@
             "color": "#000000",
             "hamburgerColor": "#ffffff"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
@@ -1164,7 +1169,7 @@
             "color": "#000000",
             "hamburgerColor": "#ffffff"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
