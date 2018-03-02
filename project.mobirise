@@ -307,7 +307,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-20-1043x1024.jpg",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
@@ -339,7 +339,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-20-1043x1024.jpg",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
@@ -402,7 +402,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-20-1043x1024.jpg",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
