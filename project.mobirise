@@ -7,12 +7,13 @@
       "title": "Mobirise",
       "styling": {},
       "additionalSetColors": [
-        "#777777"
+        "#777777",
+        "#2c2c2c"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 110,
+    "uniqCompNum": 126,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -33,25 +34,7 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#000000"
-            },
-            ".mbr-navbar__section": {
-              "background": "#000000"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".mbr-brand__name a": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "18px"
-            }
-          },
+          "_inherit": "menu",
           "_params": {
             "logo": false,
             "showBrand": true,
@@ -59,20 +42,44 @@
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#000000",
+            "color": "#ffffff",
             "hamburgerColor": "#ffffff"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "23px"
+            },
+            ".mbr-brand__name a SPAN": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "30px"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-181-120x120.jpg",
+              "src": "images/logo.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -80,12 +87,9 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span style=\"font-weight: normal;\">PETRA SEEGER</span></a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-0"
+          "brand": "<a class=\"mbr-brand__name text-black\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span style=\"font-weight: normal;\">PETRA SEEGER</span><br></a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-3c"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -139,236 +143,319 @@
         },
         {
           "_params": {
-            "showMeta": false
+            "showText": true,
+            "outside": true
           },
-          "title": "",
-          "meta": "By John Smith posted July 30, 2015",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-2t"
-        },
-        {
-          "_inherit": "gallery1",
-          "_params": {
-            "fullWidth": true,
-            "noGutter": false,
-            "showText": false,
-            "showBullets": true,
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-398-329x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-398-329x1024-329x1024.jpg",
-                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-404-329x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-404-329x1024-329x1024.jpg",
-                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "Type caption here",
-                "active": false
-              }
-            ]
-          },
-          "articleLayout": true,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery2",
-          "_anchor": "gallery2-1c"
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "OHNE TITEL",
-          "meta": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_styles": {
-            "H3": {
-              "text-align": "left"
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/l1040751-1400x1889.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
-            "P": {
-              "text-align": "left"
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "_anchor": "header3-2w"
-        },
-        {
-          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "text": "WINTERLANDSCHAFT 1 |&nbsp;32x42cm | Acryl/Kreide auf Papier",
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-2d"
-        },
-        {
-          "_inherit": "gallery1",
-          "_params": {
-            "fullWidth": true,
-            "noGutter": false,
-            "showText": false,
-            "showBullets": true,
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-15-1006x1024-800x814.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-15-1006x1024-800x814-800x814.jpg",
-                "alt": "Serie Blau 3 | 30x30cm | Acryl auf Leinwand",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-19-1006x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-19-1006x1024-800x814.jpg",
-                "alt": "Serie Blau 4 | 30x30cm | Acryl auf Leinwand",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ]
-          },
-          "articleLayout": true,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery2",
-          "_anchor": "gallery2-1b"
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "SERIE BLAU",
-          "meta": "<span style=\"font-style: normal;\">Serie Blau 3 | 30x30cm | Acryl auf Leinwand<br>Serie Blau 4 | 30x30cm | Acryl auf Leinwand</span><br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
+          "_name": "image2",
+          "_anchor": "image2-37",
           "_styles": {
-            "H3": {
-              "text-align": "left"
+            "SMALL": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/l1040748-1400x887.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
-            "P": {
-              "text-align": "left"
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "_anchor": "header3-2x"
-        },
-        {
-          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "text": "WINTERLANDSCHAFT 2 | 57x37cm | Acryl/Kreide auf Papier",
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-2b"
-        },
-        {
-          "_inherit": "gallery1",
-          "_params": {
-            "fullWidth": true,
-            "noGutter": false,
-            "showText": false,
-            "showBullets": true,
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782-800x782.jpg",
-                "alt": "12x16cm | Bleistift/Ölfarbe auf Papier",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ]
-          },
-          "articleLayout": true,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery2",
-          "_anchor": "gallery2-31"
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "FELDER",
-          "meta": "<span style=\"font-style: normal;\">Felder | 140x140cm | Pigment auf Leinwand</span><br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
+          "_name": "image2",
           "_styles": {
-            "H3": {
-              "text-align": "left"
-            },
-            "P": {
-              "text-align": "left"
+            "SMALL": {
+              "text-align": "center"
             }
           },
-          "_anchor": "header3-2y"
+          "_anchor": "image2-39"
         },
         {
-          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-28"
-        },
-        {
-          "_inherit": "gallery1",
+          "_inherit": "header1",
           "_params": {
-            "fullWidth": true,
-            "noGutter": false,
+            "showTitle": false,
             "showText": false,
-            "showBullets": true,
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1140159-1295x1383-800x854.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1140159-1295x1383-800x854-800x854.jpg",
-                "alt": "12x16cm | Bleistift/Ölfarbe auf Papier",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1140151-1295x1383.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1140151-1295x1383-800x854.jpg",
-                "alt": "12x16cm | Bleistift/Ölfarbe auf Papier",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ]
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/l1040748-2000x1267.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
-          "articleLayout": true,
+          "title": "MOBIRISE WEBSITE BUILDER",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery2",
-          "_anchor": "gallery2-1p"
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-33"
         },
         {
           "_params": {
-            "showMeta": true
+            "showText": true,
+            "outside": true
           },
-          "title": "SERIE „ANBEGINN“",
-          "meta": "<span style=\"font-style: normal;\">Serie „Anbeginn\" | 12x16cm | Bleistift/Ölfarbe auf Papier<br>Serie „Anbeginn\" | 12x16cm | Bleistift/Ölfarbe auf Papier</span><br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_styles": {
-            "H3": {
-              "text-align": "left"
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/1ohne-titel-1400x1954.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
-            "P": {
-              "text-align": "left"
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "_anchor": "header3-2z"
+          "text": "ohne Titel | 50x70cm | Acryl/Kreide auf Papier",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_styles": {
+            "SMALL": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "image2-3a"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1ohne-titel-1400x1954.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MOBIRISE WEBSITE BUILDER",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-32"
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Serie Blau 3 | 30x30cm | Acryl auf Leinwand<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_styles": {
+            "SMALL": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "image2-3d"
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Serie Blau 4 | 30x30cm | Acryl auf Leinwand",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_styles": {
+            "SMALL": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "image2-3f"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-19-1006x1024.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MOBIRISE WEBSITE BUILDER",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-3e"
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "FELDER<br>Felder | 140x140cm | Pigment auf Leinwand<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_styles": {
+            "SMALL": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "image2-3g"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "MOBIRISE WEBSITE BUILDER",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-3h"
         },
         {
           "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
@@ -696,16 +783,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "showButtons": false,
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#000000",
-            "hamburgerColor": "#ffffff"
+            "color": "#cccccc",
+            "hamburgerColor": "#000000"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
@@ -865,16 +952,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "showButtons": false,
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#000000",
-            "hamburgerColor": "#ffffff"
+            "color": "#cccccc",
+            "hamburgerColor": "#000000"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
@@ -1027,16 +1114,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "showButtons": false,
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#000000",
-            "hamburgerColor": "#ffffff"
+            "color": "#cccccc",
+            "hamburgerColor": "#000000"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
@@ -1142,13 +1229,13 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#000000"
+              "background": "#cccccc"
             },
             ".mbr-navbar__section": {
-              "background": "#000000"
+              "background": "#cccccc"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".mbr-brand__name a": {
               "font-family": "'Raleway', sans-serif",
@@ -1157,16 +1244,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "showButtons": false,
             "sticky": true,
             "collapsed": false,
             "transparent": false,
-            "color": "#000000",
-            "hamburgerColor": "#ffffff"
+            "color": "#cccccc",
+            "hamburgerColor": "#000000"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT<br></a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
@@ -1196,7 +1283,7 @@
             "showMeta": true
           },
           "title": "FIGUREN",
-          "meta": "2001-2018",
+          "meta": "1998-2018",
           "_tags": [
             "Theme"
           ],
@@ -1240,32 +1327,11 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-638-735x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-638-735x1024-735x1024.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
                 "image": "@PROJECT_PATH@/assets/images/img-633-694x1024.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-633-694x1024-694x1024.jpg",
                 "alt": "",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-631-1280x890.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-631-1280x890-800x556.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-629-1013x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-629-1013x1024-800x808.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-627-724x1024.jpg",
@@ -1391,7 +1457,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-588-710x1024-710x1024.jpg",
                 "alt": "",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ]
           },

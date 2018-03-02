@@ -4,21 +4,24 @@
 
 
 
-#menu-0 .mbr-brand__name {
+#ext_menu-3c .mbr-brand__name {
   font-size: 16px;
 }
-#menu-0.mbr-navbar--stuck .mbr-navbar__section {
-  background: #000000;
+#ext_menu-3c.mbr-navbar--stuck .mbr-navbar__section {
+  background: #ffffff;
 }
-#menu-0 .mbr-navbar__section {
-  background: #000000;
+#ext_menu-3c .mbr-navbar__section {
+  background: #ffffff;
 }
-#menu-0 .mbr-navbar__hamburger {
+#ext_menu-3c .mbr-navbar__hamburger {
   color: #ffffff;
 }
-#menu-0 .mbr-brand__name a {
+#ext_menu-3c .mbr-brand__name a {
+  font-size: 23px;
+}
+#ext_menu-3c .mbr-brand__name a SPAN {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 30px;
 }
 #header1-1 H1 {
   color: #ffffff;
@@ -35,29 +38,23 @@
   font-size: 84px;
   font-family: 'Raleway', sans-serif;
 }
-#header3-2w H3 {
-  text-align: left;
+#image2-37 SMALL {
+  text-align: center;
 }
-#header3-2w P {
-  text-align: left;
+#image2-39 SMALL {
+  text-align: center;
 }
-#header3-2x H3 {
-  text-align: left;
+#image2-3a SMALL {
+  text-align: center;
 }
-#header3-2x P {
-  text-align: left;
+#image2-3d SMALL {
+  text-align: center;
 }
-#header3-2y H3 {
-  text-align: left;
+#image2-3f SMALL {
+  text-align: center;
 }
-#header3-2y P {
-  text-align: left;
-}
-#header3-2z H3 {
-  text-align: left;
-}
-#header3-2z P {
-  text-align: left;
+#image2-3g SMALL {
+  text-align: center;
 }
 
 #msg-box5-2k .mbr-header__text {
@@ -138,13 +135,13 @@
   font-size: 16px;
 }
 #menu-2l.mbr-navbar--stuck .mbr-navbar__section {
-  background: #000000;
+  background: #cccccc;
 }
 #menu-2l .mbr-navbar__section {
-  background: #000000;
+  background: #cccccc;
 }
 #menu-2l .mbr-navbar__hamburger {
-  color: #ffffff;
+  color: #000000;
 }
 #menu-2l .mbr-brand__name a {
   font-family: 'Raleway', sans-serif;
