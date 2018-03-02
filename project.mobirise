@@ -68,7 +68,7 @@
             ".mbr-brand__name a SPAN": {
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "30px"
+              "font-size": "24px"
             }
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">WERKE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"bio.html\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"news.html\">NEUES</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:seeger-p@web.de\">KONTAKT</a></li>",
@@ -308,7 +308,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-20-1043x1024.jpg",
+              "src": "@PROJECT_PATH@/assets/images/l1130040-1-1399x1368.jpg",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
@@ -340,7 +340,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-20-1043x1024.jpg",
+              "src": "@PROJECT_PATH@/assets/images/l1130040-1-1399x1368.jpg",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
@@ -403,7 +403,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-20-1043x1024.jpg",
+              "src": "@PROJECT_PATH@/assets/images/l1130040-1-1399x1368.jpg",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
