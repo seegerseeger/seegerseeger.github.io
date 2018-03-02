@@ -13,7 +13,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 126,
+    "uniqCompNum": 133,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -308,7 +308,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/l1130040-1-1399x1368.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-16-1006x1024.jpg",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
@@ -320,17 +320,12 @@
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "text": "Serie Blau 3 | 30x30cm | Acryl auf Leinwand<br>",
+          "text": "Serie Blau 3 | 30x30cm | Acryl auf Leinwand",
           "_tags": [
             "Theme"
           ],
           "_name": "image2",
-          "_styles": {
-            "SMALL": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "image2-3d"
+          "_anchor": "image2-3l"
         },
         {
           "_params": {
@@ -340,7 +335,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/l1130040-1-1399x1368.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-20-1043x1024.jpg",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
@@ -357,12 +352,7 @@
             "Theme"
           ],
           "_name": "image2",
-          "_styles": {
-            "SMALL": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "image2-3f"
+          "_anchor": "image2-3m"
         },
         {
           "_inherit": "header1",
@@ -415,48 +405,12 @@
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "text": "FELDER<br>Felder | 140x140cm | Pigment auf Leinwand<br>",
+          "text": "Felder | 140x140cm | Pigment auf Leinwand<br>",
           "_tags": [
             "Theme"
           ],
           "_name": "image2",
-          "_styles": {
-            "SMALL": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "image2-3g"
-        },
-        {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#ffffff",
-            "overlayOpacity": 0.5
-          },
-          "title": "MOBIRISE WEBSITE BUILDER",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-3h"
+          "_anchor": "image2-3o"
         },
         {
           "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
