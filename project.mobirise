@@ -13,7 +13,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 133,
+    "uniqCompNum": 134,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -36,7 +36,7 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
             "showButtons": false,
             "sticky": true,
@@ -75,11 +75,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
+              "src": "@PROJECT_PATH@/assets/images/l1130040-1-800x782.jpg",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": ""
             },
             "iconFont": {
@@ -723,13 +723,13 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#000000"
+              "background": "#cccccc"
             },
             ".mbr-navbar__section": {
-              "background": "#000000"
+              "background": "#cccccc"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".mbr-brand__name a": {
               "font-family": "'Raleway', sans-serif",
@@ -892,13 +892,13 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#000000"
+              "background": "#cccccc"
             },
             ".mbr-navbar__section": {
-              "background": "#000000"
+              "background": "#cccccc"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".mbr-brand__name a": {
               "font-family": "'Raleway', sans-serif",
@@ -1054,13 +1054,13 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#000000"
+              "background": "#cccccc"
             },
             ".mbr-navbar__section": {
-              "background": "#000000"
+              "background": "#cccccc"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".mbr-brand__name a": {
               "font-family": "'Raleway', sans-serif",
