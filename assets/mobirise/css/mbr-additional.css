@@ -48,6 +48,25 @@
   text-align: center;
 }
 
+#ext_menu-3c .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-3c.mbr-navbar--stuck .mbr-navbar__section {
+  background: #ffffff;
+}
+#ext_menu-3c .mbr-navbar__section {
+  background: #ffffff;
+}
+#ext_menu-3c .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-3c .mbr-brand__name a {
+  font-size: 23px;
+}
+#ext_menu-3c .mbr-brand__name a SPAN {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+}
 #msg-box5-2k .mbr-header__text {
   color: #ffffff;
 }
@@ -60,23 +79,26 @@
 #content4-w .mbr-section__col .mbr-header__text {
   text-align: left;
 }
-#menu-t .mbr-brand__name {
+
+#ext_menu-3c .mbr-brand__name {
   font-size: 16px;
 }
-#menu-t.mbr-navbar--stuck .mbr-navbar__section {
-  background: #cccccc;
+#ext_menu-3c.mbr-navbar--stuck .mbr-navbar__section {
+  background: #ffffff;
 }
-#menu-t .mbr-navbar__section {
-  background: #cccccc;
+#ext_menu-3c .mbr-navbar__section {
+  background: #ffffff;
 }
-#menu-t .mbr-navbar__hamburger {
-  color: #000000;
+#ext_menu-3c .mbr-navbar__hamburger {
+  color: #ffffff;
 }
-#menu-t .mbr-brand__name a {
+#ext_menu-3c .mbr-brand__name a {
+  font-size: 23px;
+}
+#ext_menu-3c .mbr-brand__name a SPAN {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
 }
-
 #content5-17 .mbr-header .mbr-header__text {
   text-align: center;
   color: #fff;
@@ -88,53 +110,46 @@
 #content5-17 .mbr-article {
   color: #fff;
 }
-#menu-11 .mbr-brand__name {
+
+#ext_menu-3c .mbr-brand__name {
   font-size: 16px;
 }
-#menu-11.mbr-navbar--stuck .mbr-navbar__section {
-  background: #cccccc;
+#ext_menu-3c.mbr-navbar--stuck .mbr-navbar__section {
+  background: #ffffff;
 }
-#menu-11 .mbr-navbar__section {
-  background: #cccccc;
+#ext_menu-3c .mbr-navbar__section {
+  background: #ffffff;
 }
-#menu-11 .mbr-navbar__hamburger {
-  color: #000000;
+#ext_menu-3c .mbr-navbar__hamburger {
+  color: #ffffff;
 }
-#menu-11 .mbr-brand__name a {
+#ext_menu-3c .mbr-brand__name a {
+  font-size: 23px;
+}
+#ext_menu-3c .mbr-brand__name a SPAN {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
 }
 
-#menu-20 .mbr-brand__name {
+#ext_menu-3c .mbr-brand__name {
   font-size: 16px;
 }
-#menu-20.mbr-navbar--stuck .mbr-navbar__section {
-  background: #cccccc;
+#ext_menu-3c.mbr-navbar--stuck .mbr-navbar__section {
+  background: #ffffff;
 }
-#menu-20 .mbr-navbar__section {
-  background: #cccccc;
+#ext_menu-3c .mbr-navbar__section {
+  background: #ffffff;
 }
-#menu-20 .mbr-navbar__hamburger {
-  color: #000000;
+#ext_menu-3c .mbr-navbar__hamburger {
+  color: #ffffff;
 }
-#menu-20 .mbr-brand__name a {
+#ext_menu-3c .mbr-brand__name a {
+  font-size: 23px;
+}
+#ext_menu-3c .mbr-brand__name a SPAN {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
 }
-
-#menu-2l .mbr-brand__name {
-  font-size: 16px;
-}
-#menu-2l.mbr-navbar--stuck .mbr-navbar__section {
-  background: #cccccc;
-}
-#menu-2l .mbr-navbar__section {
-  background: #cccccc;
-}
-#menu-2l .mbr-navbar__hamburger {
-  color: #000000;
-}
-#menu-2l .mbr-brand__name a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+#image2-3r SMALL {
+  text-align: center;
 }
