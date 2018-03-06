@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Petra Seeger Malerei",
-    "currentPage": "impressum.html",
+    "currentPage": "galerie.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -13,7 +13,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 138,
+    "uniqCompNum": 146,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -45,7 +45,7 @@
             "color": "#ffffff",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"gallerie.html\" data-toolbar=\"-mbrBtnMove\">GALLERIE</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"galerie.html\" data-toolbar=\"-mbrBtnMove\">GALERIE</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -507,7 +507,7 @@
             "color": "#ffffff",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"gallerie.html\" data-toolbar=\"-mbrBtnMove\">GALLERIE</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"galerie.html\" data-toolbar=\"-mbrBtnMove\">GALERIE</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -855,7 +855,7 @@
             "color": "#ffffff",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"gallerie.html\" data-toolbar=\"-mbrBtnMove\">GALLERIE</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"galerie.html\" data-toolbar=\"-mbrBtnMove\">GALERIE</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1068,7 +1068,7 @@
             "color": "#ffffff",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"gallerie.html\" data-toolbar=\"-mbrBtnMove\">GALLERIE</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"galerie.html\" data-toolbar=\"-mbrBtnMove\">GALERIE</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1183,10 +1183,10 @@
         }
       ]
     },
-    "gallerie.html": {
+    "galerie.html": {
       "settings": {
-        "meta_descr": "Gallerie.",
-        "title": "Gallerie",
+        "meta_descr": "Galerie.",
+        "title": "Galerie",
         "order": 3
       },
       "components": [
@@ -1202,7 +1202,7 @@
             "color": "#ffffff",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"gallerie.html\" data-toolbar=\"-mbrBtnMove\">GALLERIE</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"galerie.html\" data-toolbar=\"-mbrBtnMove\">GALERIE</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1248,6 +1248,198 @@
           "brand": "<a class=\"mbr-brand__name text-black\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span style=\"font-weight: normal;\">PETRA SEEGER</span><br></a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-3c"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "ABSTRAKTION",
+          "meta": "1997-2018",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-40"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "fullWidth": true,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": false,
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-83-1280x1019.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-83-1280x1019-800x636.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-85-895x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-85-895x1024-800x915.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-88-1118x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-88-1118x1024-800x732.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-94-847x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-94-847x1024-800x967.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-98-1167x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-98-1167x1024-800x701.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-101-849x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-101-849x1024-800x964.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-111-1199x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-111-1199x1024-799x683.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-114-1028x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-114-1028x1024-800x796.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-133-1035x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-133-1035x1024-800x791.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-159-1280x903.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-159-1280x903-800x564.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-164-1280x905.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-164-1280x905-800x565.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-181-1280x915.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-181-1280x915-800x571.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-249-770x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-249-770x1024-770x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-256-1280x822.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-256-1280x822-800x513.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-258-809x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-258-809x1024-800x1012.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-272-577x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-272-577x1024-577x1024.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-280-1280x840.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-280-1280x840-800x525.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-412-1280x904.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-412-1280x904-800x565.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": true,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-41"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "PRE MADE BLOCKS",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">START A JOURNEY</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-3w"
         },
         {
           "_params": {
@@ -1438,50 +1630,6 @@
           ],
           "_name": "gallery2",
           "_anchor": "gallery2-2q"
-        },
-        {
-          "_params": {
-            "showText": true,
-            "outside": true
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/l1040748-2000x1267-800x506.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            }
-          },
-          "text": "WINTERLANDSCHAFT 1<br>&nbsp;32x42cm | Acryl/Kreide auf Papier",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_styles": {
-            "SMALL": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "image2-3r"
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "DROP-DEAD EASY WEBSITE MAKER",
-          "meta": "By John Smith posted July 30, 2015",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-3q"
         },
         {
           "_params": {
