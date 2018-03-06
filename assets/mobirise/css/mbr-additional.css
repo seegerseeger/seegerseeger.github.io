@@ -150,6 +150,9 @@
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
 }
-#image2-3r SMALL {
-  text-align: center;
+#msg-box1-3w .mbr-header .mbr-header__text {
+  color: #fff;
+}
+#msg-box1-3w .mbr-article {
+  color: #fff;
 }
