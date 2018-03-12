@@ -1291,8 +1291,8 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-94-847x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-94-847x1024-800x967.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-95-847x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-95-847x1024-800x967.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
@@ -1319,8 +1319,8 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-159-1280x903.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-159-1280x903-800x564.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-249-770x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-249-770x1024-770x1024.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
@@ -1328,13 +1328,6 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/img-114-1028x1024.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-114-1028x1024-800x796.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-249-770x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-249-770x1024-770x1024.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
@@ -1347,11 +1340,11 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-256-1280x822.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-256-1280x822-800x513.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-256-822x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-256-822x1280-800x1245.jpg",
                 "alt": "",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ]
           },
