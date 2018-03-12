@@ -1264,7 +1264,7 @@
         {
           "_inherit": "gallery1",
           "_params": {
-            "fullWidth": false,
+            "fullWidth": true,
             "noGutter": false,
             "showText": false,
             "showBullets": false,
