@@ -1288,13 +1288,6 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-88-1118x1024-800x732.jpg",
                 "alt": "",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-95-847x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-95-847x1024-800x967.jpg",
-                "alt": "",
-                "caption": "Type caption here",
                 "active": true
               },
               {
@@ -1305,15 +1298,15 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-249-770x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-249-770x1024-770x1024.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-114-1028x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-114-1028x1024-800x796.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-114-1028x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-114-1028x1024-800x796.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-249-770x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-249-770x1024-770x1024.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
