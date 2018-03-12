@@ -1264,7 +1264,7 @@
         {
           "_inherit": "gallery1",
           "_params": {
-            "fullWidth": true,
+            "fullWidth": false,
             "noGutter": false,
             "showText": false,
             "showBullets": false,
@@ -1323,32 +1323,11 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-114-1028x1024-800x796.jpg",
                 "alt": "",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-133-1035x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-133-1035x1024-800x791.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-159-1280x903.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-159-1280x903-800x564.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-164-1280x905.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-164-1280x905-800x565.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-181-1280x915.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-181-1280x915-800x571.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
@@ -1373,27 +1352,6 @@
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-272-577x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-272-577x1024-577x1024.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-280-1280x840.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-280-1280x840-800x525.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-412-1280x904.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-412-1280x904-800x565.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": true
               }
             ]
           },
