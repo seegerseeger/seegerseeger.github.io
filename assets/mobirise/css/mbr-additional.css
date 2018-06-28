@@ -44,9 +44,6 @@
 #image2-39 SMALL {
   text-align: center;
 }
-#image2-3a SMALL {
-  text-align: center;
-}
 
 #ext_menu-3c .mbr-brand__name {
   font-size: 16px;
@@ -154,5 +151,11 @@
   color: #fff;
 }
 #msg-box1-3w .mbr-article {
+  color: #fff;
+}
+#msg-box1-49 .mbr-header .mbr-header__text {
+  color: #fff;
+}
+#msg-box1-49 .mbr-article {
   color: #fff;
 }
